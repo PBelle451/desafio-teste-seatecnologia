@@ -1,0 +1,30 @@
+{
+  "name": "desafio-teste-seatecnologia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test:e2e": "cypress open",
+    "test:e2e:ui": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBelle451/desafio-teste-seatecnologia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBelle451/desafio-teste-seatecnologia/issues"
+  },
+  "homepage": "https://github.com/PBelle451/desafio-teste-seatecnologia#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "cypress": "^15.5.0",
+    "cypress-codegen": "^2.4.5"
+  }
+}
