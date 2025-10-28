@@ -19,14 +19,14 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 // Hook global para logar início/fim de cada teste
 beforeEach(() => {
-  cy.log('🚀 Iniciando novo caso de teste...');
+  cy.log('Iniciando novo caso de teste...');
 });
 
 afterEach(function () {
   if (this.currentTest.state === 'failed') {
-    cy.log(`❌ Teste falhou: ${this.currentTest.title}`);
+    cy.log(`Teste falhou: ${this.currentTest.title}`);
   } else {
-    cy.log(`✅ Teste passou: ${this.currentTest.title}`);
+    cy.log(`Teste passou: ${this.currentTest.title}`);
   }
 });
 
